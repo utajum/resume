@@ -7,7 +7,8 @@
     "serve": "resume serve --resume ./resume.json --theme kendall",
     "export": "resume export --resume ./resume.json --theme kendall",
     "pdf": "$npm_execpath run export -- --format pdf \"./$(date +'%Y-%m-%d').pdf\"",
-    "html": "$npm_execpath run export -- --format html \"./$(date +'%Y-%m-%d').html\""
+    "html": "$npm_execpath run export -- --format html \"./$(date +'%Y-%m-%d').html\"",
+    "build": "npm run html && mkdir -p build && mv *.html index.html && mv *.html ./build/index.html"
   },
   "author": "",
   "license": "ISC",
