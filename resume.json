@@ -313,7 +313,7 @@
       "position": "Volunteer",
       "startDate": "1992-01-01",
       "endDate": "",
-      "summary": "I may not have a fancy degree in animal welfare, but I try to help stray cats and dogs in my city by providing food, water, and medical care when they need it the most."
+      "summary": "I try to help stray cats and dogs in my city by providing food, water, and transportation to medical care when they need it the most."
     },
     {
       "organization": "BeerJS Скопје",
@@ -322,6 +322,14 @@
       "endDate": "",
       "summary": "I push buttons and connect cables. Mostly I drink beer.",
       "url": "https://www.linkedin.com/company/beerjs-скопје"
+    },
+    {
+      "organization": "My Family and Friends",
+      "position": "Chief Technology Officer",
+      "startDate": "1999-01-01",
+      "endDate": "",
+      "summary": "PhD in 'Mom, can you fix my computer?' and a minor in 'Can you show me how to use this phone?'. I am the go-to tech support for my friends and family, from boilers to laptop disassembly, I try to make technology simple for anyone.",
+      "url": ""
     }
   ],
   "interests": [
