@@ -37,7 +37,6 @@
   "work": [
     {
       "name": "Virtask",
-      "url": "http://www.virtask.nl/",
       "position": "Full Stack Engineer",
       "startDate": "2018-01-31",
       "endDate": "",
@@ -53,7 +52,7 @@
         "DevOps"
       ],
       "summary": "At Virtask, As a single developer, I was able to optimize the billing of various services, resulting in a significant reduction of costs to approximately 15$ per month.\n\nI created a delivery system for Windows, Android, and Web platforms that was both efficient and reliable. I automated many processes to make it easier for admins to manage the platform.\nI implemented real-time WebSocket communication using serverless technology, which greatly improved the user experience. I also built a video communication platform which was a valuable asset to the company.\n\nUsing React and Electron, I built a virtual assistant that provides users with a personalized, interactive experience. I am responsible for maintaining and updating the stack on a regular basis. I also take care of development previews, code reviews, and testing which ensures code quality and a smooth deployment process.",
-      "url": ""
+      "url": "http://www.virtask.nl/"
     },
     {
       "name": "Panther",
