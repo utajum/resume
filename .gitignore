@@ -1,0 +1,52 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# Avatar animation post install files
+public/*
+
+
+vapi_log_*
+
+# Generated core json files
+config_asr_generated*
+config_tts_generated*
+coreDBSettings.json
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+/public/electron.js
+/public/child.js
+
+# misc
+.snyk
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+/dist
+*.db
+.vscode
+
+# webstorm
+
+.idea
+*.iml
+*.editorconfig
+
+# cache
+**/wdcache/*
+
+#iHomeLab
+AnneNext-Dev skripte
+/tmp

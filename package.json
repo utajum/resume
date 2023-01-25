@@ -1,0 +1,22 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "validate": "resume validate --resume ./resume.json",
+    "serve": "resume serve --resume ./resume.json --theme kendall",
+    "export": "resume export --resume ./resume.json --theme kendall",
+    "pdf": "$npm_execpath run export -- --format pdf \"./$(date +'%Y-%m-%d').pdf\"",
+    "html": "$npm_execpath run export -- --format html \"./$(date +'%Y-%m-%d').html\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jsonresume-theme-kendall": "0.2.0",
+    "jsonresume-theme-spartan": "0.3.0",
+    "jsonresume-theme-stackoverflow": "2.0.0",
+    "prettier": "2.8.3",
+    "resume-cli": "3.0.8"
+  }
+}

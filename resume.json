@@ -1,0 +1,350 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Vladimir Tasic",
+    "label": "Software Developer",
+    "image": "https://avatars.githubusercontent.com/u/8029868?v=4",
+    "email": "vladimir.tasik@gmail.com",
+    "url": "https://vladdimir.dev",
+    "summary": "I'm a Node.js developer with a love for open-source and Linux. I often can't help but dive in and contribute, whether it's fixing a bug or entering a simple bug report. Some of my proudest moments include getting my code merged into GitLab and Visual Studio Code.\n\nI'm always on the lookout for new open-source projects to tinker with. \n\nWhen I'm not coding, you can find me trail running with my dog or reverse engineering my toaster.\n\nWant some free advice? Save yourself the trouble and steer clear of home automation, it's more addictive than heroin and just as hard to kick.",
+    "location": {
+      "countryCode": "MK",
+      "address": "Skopje, Macedonia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "vladdimir",
+        "url": "https://www.linkedin.com/in/vladdimir/"
+      },
+      {
+        "network": "Github",
+        "username": "utajum",
+        "url": "https://github.com/utajum"
+      },
+      {
+        "network": "GitLab",
+        "username": "vladel",
+        "url": "https://gitlab.com/vladel"
+      },
+      {
+        "network": "Strava",
+        "username": "Vladimir",
+        "url": "https://www.strava.com/athletes/2497763"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Virtask.nl",
+      "position": "Full Stack Engineer",
+      "startDate": "2018-01-31",
+      "endDate": "",
+      "highlights": [
+        "Backend",
+        "Frontend",
+        "React",
+        "Electron",
+        "AWS Lambda",
+        "Dynamodb",
+        "NPM",
+        "Webpack",
+        "DevOps"
+      ],
+      "summary": "At Virtask, As a single developer, I was able to optimize the billing of various services, resulting in a significant reduction of costs to approximately 15$ per month.\n\nI created a delivery system for Windows, Android, and Web platforms that was both efficient and reliable. I automated many processes to make it easier for admins to manage the platform.\nI implemented real-time WebSocket communication using serverless technology, which greatly improved the user experience. I also built a video communication platform which was a valuable asset to the company.\n\nUsing React and Electron, I built a virtual assistant that provides users with a personalized, interactive experience. I am responsible for maintaining and updating the stack on a regular basis. I also take care of development previews, code reviews, and testing which ensures code quality and a smooth deployment process.",
+      "url": ""
+    },
+    {
+      "name": "Panther",
+      "position": "Software Engineer",
+      "startDate": "2021-01-31",
+      "endDate": "2022-06-30",
+      "highlights": ["Frontend", "Webpack", "React", "NPM", "DevOps"],
+      "summary": "At Panther, I was a part of a team of developers where I consistently met rigorous deadlines with ease.\n\nUsing React, I built a comprehensive employee management platform and a currency conversion system that provided a user-friendly and efficient way to manage employee information and financial transactions. \n\nI also made sure the pages loaded lightning-fast by implementing lazy loading and optimizing loading times.\n\nAdditionally, I built a branch preview system that allowed us to preview changes to the entire stack before they went live by automating the process using EC2 and Github.\n\nI also did a lot of code reviews to ensure that the codebase was maintainable and readable.",
+      "url": "https://www.linkedin.com/company/pantherhr/"
+    },
+    {
+      "name": "Tibro Labs",
+      "position": "Software and DevOps Engineer",
+      "startDate": "2017-01-31",
+      "endDate": "2018-01-31",
+      "highlights": [
+        "Frontend",
+        "React",
+        "NPM",
+        "Webpack",
+        "DevOps",
+        "Linux",
+        "Gitlab",
+        "Virtualization"
+      ],
+      "summary": "At TibroLabs, I worked on a animal tracking and disease control project for the country of Georgia (NAITS). I was a frontend React developer.\n\nAdditionally, I was in charge of DevOps, ensuring smooth deployment and maintenance of the system.\n\nI also created a branch preview system, which allowed for testing and reviewing code before it is merged into the main branch. I also played a key role in ensuring code quality by performing code reviews and static analysis.",
+      "url": "",
+      "location": "Skopje"
+    },
+    {
+      "name": "Perun Technologies",
+      "position": "Software and DevOps Engineer",
+      "startDate": "2015-11-30",
+      "endDate": "2018-01-31",
+      "highlights": [
+        "Frontend",
+        "React",
+        "NPM",
+        "Webpack",
+        "DevOps",
+        "Linux",
+        "Gitlab",
+        "Virtualization"
+      ],
+      "summary": "At PERUN.tech, I worked on various projects as a contractor, while also managing and maintaining the company's IT infrastructure.\n\nMy responsibilities included installing and maintaining a self-served virtualization stack using QEMU on Linux, implementing a custom Ansible backup solution for all virtualized systems, maintaining and updating a self-served GitLab Community server, testing and reviewing code, managing and replicating Oracle and PostgreSQL databases, identifying cost-effective solutions such as upgrading a server blade to improve performance while reducing power consumption.\n\nAdditionally, I also worked on front-end development, utilizing my skills in web development and user interface design to enhance the user experience. I also helped other team members with technical issues and provided guidance and support as needed.",
+      "url": "https://www.linkedin.com/company/perun-technologies/",
+      "location": "Skopje"
+    },
+    {
+      "name": "Department for Environment, Food and Rural Affairs",
+      "position": "Continuous Improvement Engineer",
+      "startDate": "2016-09-30",
+      "endDate": "2017-09-30",
+      "highlights": ["DevOps", "Linux", "TeamCity", "Virtualization", "Bash"],
+      "summary": "As a contractor at DEFRA, I was responsible for the packaging and deployment of code on CentOS Linux systems.\n\nMy role involved creating RPM files and deploying the build artefacts to various development environments for testing.\n\nThrough this process, I ensured that the code was thoroughly tested and met the necessary standards before publishing the test results for specific version artefacts.",
+      "url": "https://www.linkedin.com/company/defra/",
+      "location": "Skopje"
+    },
+    {
+      "name": "ABACO",
+      "position": "Continuous Improvement Engineer",
+      "startDate": "2015-11-30",
+      "endDate": "2017-09-30",
+      "highlights": [
+        "DevOps",
+        "Linux",
+        "Gitlab",
+        "Virtualization",
+        "VMWare",
+        "QEMU"
+      ],
+      "summary": "At ABACO, I designed and developed a comprehensive white-label full-stack replication solution.\n\nThis solution automated various services, proxies, databases, and user management systems, allowing for the replication of those environments on new virtual instances with the push of a button using VMware, Ansible and Linux. \n\nThe ease of use and automation provided by this solution brought great value to the company.\n\nI also developed a Selenium codebase and reverse-engineered the Firefox Selenium IDE to record browser interaction and export it to Java-compatible Selenium tests.",
+      "url": "https://www.linkedin.com/company/abacogroupspa/",
+      "location": "Skopje"
+    },
+    {
+      "name": "DDCom",
+      "position": "System Administrator and Technical Support",
+      "startDate": "2011-06-30",
+      "endDate": "2014-10-31",
+      "highlights": [
+        "Linux",
+        "Automation",
+        "Windows",
+        "Network",
+        "CPanel",
+        "Tech Support",
+        "Hardware",
+        "PHP"
+      ],
+      "summary": "At DDCOM, I had a diverse range of responsibilities and skills, specifically in hardware repair. I was responsible for detecting and repairing defects in various electronic devices, including data recovery from different types of media.\n\nThe nature of the job was unpredictable and I never knew what new device would come in. It could be a 90s computer software to a 50,000 euros dental panorama machine. The challenges were diverse and required creative solutions, a deep understanding of various devices and technologies and the ability to troubleshoot and repair different types of systems.\n\nIn addition, I also served as a system administrator for various companies such as T. C. Soravia, notary Ana Brashnarska, ESP (esp.com.mk), and Velviem Communications. \nI provided Linux shared hosting support (CPanel), PHP development for ddstore.mk, and VBS macro creation for sheet automation, OS debugging, analysis of network security, Linux deployment and administration, and bash scripting.",
+      "url": "https://www.linkedin.com/company/ddcom/",
+      "location": "Skopje"
+    },
+    {
+      "name": "Translation",
+      "position": "Freelance",
+      "startDate": "2009-01-31",
+      "endDate": "2011-01-31",
+      "highlights": [],
+      "summary": "Translation from English/Macedonian/Russian",
+      "url": ""
+    },
+    {
+      "name": "Business Academy Smilevski - BAS",
+      "position": "Web Development Kid",
+      "startDate": "2000-04-30",
+      "endDate": "2000-05-31",
+      "highlights": [],
+      "summary": "As a 14-year-old, I created a website for a large private academy called MMCollege (now known as bas.edu.mk). Not only did I build the website, but I also managed the hosting for it.\n\nI completed this project for free. It is still available to view on the internet archive (mmcollege.sk.8k.com).\n\nIt was a great opportunity for me to showcase my skills and knowledge in web development at a young age.\n\nBuilding a website for an institution like a private academy was a challenging task, but it was also a great learning experience. It was a proud moment for me to see my work online and being used by the academy.",
+      "url": "https://www.linkedin.com/company/business-academy-smilevski/"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Univerzitet 'Sv. Kiril i Metódij' vo Skopje",
+      "area": "Russian language and literature",
+      "startDate": "2005-12-31",
+      "endDate": "2010-12-31",
+      "score": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "level": "Senior",
+      "keywords": ["React.js", "JavaScript", "TypeScript", "CSS", "HTML", "npm"]
+    },
+    {
+      "name": "DevOps",
+      "level": "Senior",
+      "keywords": [
+        "Nginx",
+        "Linux",
+        "Bash",
+        "Ansible",
+        "DigitalOcean",
+        "TeamCity",
+        "Jenkins",
+        "Gitlab",
+        "Github"
+      ]
+    },
+    {
+      "name": "Backend",
+      "level": "Senior",
+      "keywords": [
+        "Node.js",
+        "TypeScript",
+        "Webpack",
+        "Dynamodb",
+        "Serverless",
+        "npm",
+        "Nest.js"
+      ]
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "level": "",
+      "keywords": [
+        "Lambda",
+        "Serverless",
+        "Dynamodb",
+        "S3",
+        "API Gateway",
+        "EC2"
+      ]
+    },
+
+    {
+      "name": "Google Cloud Platform",
+      "level": "",
+      "keywords": ["Various API's"]
+    },
+
+    {
+      "name": "Electron",
+      "level": "",
+      "keywords": ["Update delivery", "OS level functions"]
+    },
+
+    {
+      "name": "Serverless Computing",
+      "level": "",
+      "keywords": []
+    },
+
+    {
+      "name": "Operating Systems",
+      "level": "",
+      "keywords": []
+    },
+
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+
+    {
+      "name": "QEMU",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "VMware",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Gitlab",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "GitHub",
+      "level": "",
+      "keywords": []
+    },
+
+    {
+      "name": "Web Hosting",
+      "level": "",
+      "keywords": []
+    },
+
+    {
+      "name": "System Administration",
+      "level": "",
+      "keywords": []
+    },
+
+    {
+      "name": "svn",
+      "level": "",
+      "keywords": []
+    },
+
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CentOS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Common Sense",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Help a random stray cat or dog inc.",
+      "position": "Volunteer",
+      "startDate": "1992-01-01",
+      "endDate": "",
+      "summary": "I may not have a fancy degree in animal welfare, but I try to help stray cats and dogs in my city by providing food, water, and medical care when they need it the most."
+    }
+  ],
+  "interests": [
+    {
+      "name": "Mountains and Outdoors",
+      "keywords": ["MTB", "Trail Running", "Hiking"]
+    },
+    {
+      "name": "Gardening"
+    },
+    {
+      "name": "Audio Engineering"
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Full Professional",
+      "language": "English"
+    },
+    {
+      "fluency": "Native Speaker",
+      "language": "Macedonian"
+    },
+    {
+      "fluency": "Professional Working",
+      "language": "Russian"
+    }
+  ],
+
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
