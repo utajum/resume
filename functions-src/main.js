@@ -45,7 +45,7 @@ export async function handler(event, context) {
     (event?.multiValueHeaders?.["host"] || "").toString();
 
   const platform =
-    platformFromClientEventBody() ||
+    platformFromClientEventBody(event) ||
     event?.headers?.["sec-ch-ua-platform"] ||
     "";
 
