@@ -16,6 +16,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "encoding": "0.1.13",
     "google-spreadsheet": "3.3.0",
     "jsonresume-theme-kendall": "0.2.0",
     "jsonresume-theme-spartan": "0.3.0",
