@@ -1,5 +1,27 @@
+import { GoogleSpreadsheet } from "google-spreadsheet";
+
+const doc = new GoogleSpreadsheet(process.env.SHEET_ID);
+
 export async function handler(event, context) {
   // console.log(JSON.stringify({ context, event }));
+
+  const PRIVATE_KEY = Buffer.from(process.env.PRIVATE_KEY, "base64").toString(
+    "ascii"
+  );
+
+  await doc.useServiceAccountAuth({
+    client_email: process.env.CLIENT_EMAIL,
+    private_key: PRIVATE_KEY,
+  });
+
+  await doc.loadInfo(); // loads document properties and worksheets
+
+  const firstSheet = doc.sheetsByIndex[0]; // in the order they appear on the sheets UI
+
+  await firstSheet.setHeaderRow(
+    ["HOST", "CLIENT_IP", "PLATFORM", "USER_AGENT", "COUNTRY", "LANGUAGE"],
+    0
+  );
 
   const host =
     event?.headers?.["host"] ||
@@ -24,16 +46,21 @@ export async function handler(event, context) {
     (event?.multiValueHeaders?.["X-Nf-Client-Connection-Ip"] || "").toString();
 
   const clientInfo = {
-    host,
-    clientIP,
-    platform,
-    userAgent,
-    country,
-    language,
+    HOST: host,
+    CLIENT_IP: clientIP,
+    PLATFORM: platform,
+    USER_AGENT: userAgent,
+    COUNTRY: country,
+    LANGUAGE: language,
   };
+
+  await firstSheet.addRow({ ...clientInfo });
+
+  const VISIT_COUNT = (await firstSheet.getRows())?.length || 0;
+  console.log(VISIT_COUNT);
 
   return {
     statusCode: 200,
-    body: JSON.stringify(clientInfo),
+    body: JSON.stringify({ ...clientInfo, VISIT_COUNT }),
   };
 }
