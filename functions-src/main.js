@@ -65,11 +65,10 @@ export async function handler(event, context) {
 
   await firstSheet.addRow({ ...clientInfo });
 
-  const VISIT_COUNT = (await firstSheet.getRows())?.length || 0;
-  console.log(VISIT_COUNT);
+  const TOTAL_SITE_VISITS = (await firstSheet.getRows())?.length || 0;
 
   return {
     statusCode: 200,
-    body: JSON.stringify({ ...clientInfo, VISIT_COUNT }),
+    body: JSON.stringify({ ...clientInfo, TOTAL_SITE_VISITS }),
   };
 }
