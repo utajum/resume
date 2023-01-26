@@ -6,9 +6,9 @@
     "validate": "resume validate --resume ./resume.json",
     "serve": "resume serve --resume ./resume.json --theme kendall",
     "export": "resume export --resume ./resume.json --theme kendall",
-    "pdf": "$npm_execpath run export -- --format pdf \"./$(date +'%Y-%m-%d').pdf\"",
-    "html": "$npm_execpath run export -- --format html \"./$(date +'%Y-%m-%d').html\"",
-    "build": "npm run html && mkdir -p build && mv *.html index.html && mv *.html ./build/index.html"
+    "pdf": "$npm_execpath run export -- --format pdf \"vladimir.tasic-cv.pdf\"",
+    "html": "$npm_execpath run export -- --format html \"index.html\"",
+    "build": "npm run pdf && npm run html && mkdir -p build && mv *.html ./build/index.html && mv vladimir.tasic-cv.pdf ./build"
   },
   "author": "",
   "license": "ISC",
