@@ -8,7 +8,9 @@
     "export": "resume export --resume ./resume.json --theme kendall",
     "pdf": "$npm_execpath run export -- --format pdf \"vladimir.tasic-cv.pdf\"",
     "html": "$npm_execpath run export -- --format html \"index.html\"",
-    "build": "npm run pdf && npm run html && mkdir -p build && mv *.html ./build/index.html && mv vladimir.tasic-cv.pdf ./build"
+    "build": "npm run build-functions && npm run pdf && npm run html && mkdir -p build && mv *.html ./build/index.html && mv vladimir.tasic-cv.pdf ./build",
+    "build-functions": "netlify-lambda build functions-src",
+    "dev-functions": "npm run build && netlify dev"
   },
   "author": "",
   "license": "ISC",

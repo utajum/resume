@@ -50,3 +50,7 @@ yarn-error.log*
 #iHomeLab
 AnneNext-Dev skripte
 /tmp
+
+# Local Netlify folder
+.netlify
+functions
