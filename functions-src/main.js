@@ -1,10 +1,9 @@
 export async function handler(event, context) {
   console.log(
-    `{\ncontext: ${JSON.stringify(context, null, 2)},\nevent: ${JSON.stringify(
-      event,
-      null,
-      2
-    )}\n}`
+    `{
+      context: ${JSON.stringify(context, null, 2)},
+      event: ${JSON.stringify(event, null, 2)}
+     }`
   );
   return {
     statusCode: 200,

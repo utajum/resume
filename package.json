@@ -19,6 +19,7 @@
     "jsonresume-theme-kendall": "0.2.0",
     "jsonresume-theme-spartan": "0.3.0",
     "jsonresume-theme-stackoverflow": "2.0.0",
+    "netlify-lambda": "2.0.15",
     "prettier": "2.8.3",
     "resume-cli": "3.0.8"
   }
