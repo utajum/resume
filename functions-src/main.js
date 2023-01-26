@@ -2,6 +2,15 @@ import { GoogleSpreadsheet } from "google-spreadsheet";
 
 const doc = new GoogleSpreadsheet(process.env.SHEET_ID);
 
+const platformFromClientEventBody = (event) => {
+  if (!event.body) return "";
+  try {
+    return JSON.parse(event.body)?.platform || "";
+  } catch (err) {
+    return "";
+  }
+};
+
 export async function handler(event, context) {
   console.log(JSON.stringify({ context, event }));
 
@@ -35,7 +44,12 @@ export async function handler(event, context) {
     event?.headers?.["host"] ||
     (event?.multiValueHeaders?.["host"] || "").toString();
 
-  const platform = event?.headers?.["sec-ch-ua-platform"] || "";
+  const platform =
+    event?.headers?.["sec-ch-ua-platform"] ||
+    platformFromClientEventBody() ||
+    "";
+
+  console.log(JSON.stringify({ platform }));
 
   const userAgent =
     event?.headers?.["user-agent"] ||
