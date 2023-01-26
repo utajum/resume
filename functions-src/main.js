@@ -3,7 +3,7 @@ import { GoogleSpreadsheet } from "google-spreadsheet";
 const doc = new GoogleSpreadsheet(process.env.SHEET_ID);
 
 export async function handler(event, context) {
-  // console.log(JSON.stringify({ context, event }));
+  console.log(JSON.stringify({ context, event }));
 
   const PRIVATE_KEY = Buffer.from(process.env.PRIVATE_KEY, "base64").toString(
     "ascii"
