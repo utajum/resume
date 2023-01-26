@@ -19,7 +19,15 @@ export async function handler(event, context) {
   const firstSheet = doc.sheetsByIndex[0]; // in the order they appear on the sheets UI
 
   await firstSheet.setHeaderRow(
-    ["HOST", "CLIENT_IP", "PLATFORM", "USER_AGENT", "COUNTRY", "LANGUAGE"],
+    [
+      "HOST",
+      "CLIENT_IP",
+      "PLATFORM",
+      "USER_AGENT",
+      "COUNTRY",
+      "LANGUAGE",
+      "DATE",
+    ],
     0
   );
 
@@ -52,6 +60,7 @@ export async function handler(event, context) {
     USER_AGENT: userAgent,
     COUNTRY: country,
     LANGUAGE: language,
+    DATE: new Date().toString(),
   };
 
   await firstSheet.addRow({ ...clientInfo });
