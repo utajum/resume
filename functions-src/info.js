@@ -83,8 +83,10 @@ export async function handler(event, context) {
 
   const TOTAL_SITE_VISITS = (await firstSheet.getRows())?.length || 0;
 
+  const { HOST, ...other } = clientInfo;
+
   return {
     statusCode: 200,
-    body: JSON.stringify({ ...clientInfo, TOTAL_SITE_VISITS }),
+    body: JSON.stringify({ ...other, TOTAL_SITE_VISITS }),
   };
 }
