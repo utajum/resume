@@ -95,8 +95,9 @@ export async function handler(event, context) {
     body: JSON.stringify({ ...other, TOTAL_SITE_VISITS }),
   };
 
-  if (event?.multiValueHeaders?.Origin?.includes('elevatech.xyz')) {
-    retPayload['Access-Control-Allow-Origin'] = event.multiValueHeaders.Origin;
+  if (event?.multiValueHeaders?.Origin?.[0]?.includes('elevatech.xyz')) {
+    retPayload['Access-Control-Allow-Origin'] =
+      event.multiValueHeaders.Origin[0];
   }
 
   return retPayload;
