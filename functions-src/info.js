@@ -48,6 +48,7 @@ export async function handler(event, context) {
   );
 
   const host =
+    platformFromClientEventBody(event)?.slug ||
     event?.headers?.['host'] ||
     (event?.multiValueHeaders?.['host'] || '').toString();
 
