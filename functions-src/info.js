@@ -12,6 +12,12 @@ const platformFromClientEventBody = (event) => {
 };
 
 export async function handler(event, context) {
+  if (!event?.multiValueHeaders?.Origin?.[0]?.includes('elevatech.xyz')) {
+    return {
+      statusCode: 403,
+    };
+  }
+
   console.log(JSON.stringify({ context, event }));
 
   const PRIVATE_KEY = Buffer.from(process.env.PRIVATE_KEY, 'base64').toString(
