@@ -36,6 +36,7 @@ export async function handler(event, context) {
       'COUNTRY',
       'LANGUAGE',
       'DATE',
+      'OTHER',
     ],
     0
   );
@@ -45,7 +46,7 @@ export async function handler(event, context) {
     (event?.multiValueHeaders?.['host'] || '').toString();
 
   const platform =
-    platformFromClientEventBody(event) ||
+    platformFromClientEventBody(event)?.os?.family ||
     event?.headers?.['sec-ch-ua-platform'] ||
     '';
 
@@ -75,6 +76,7 @@ export async function handler(event, context) {
     COUNTRY: country,
     LANGUAGE: language,
     DATE: new Date().toString(),
+    OTHER: JSON.stringify(platformFromClientEventBody(event)),
   };
 
   await firstSheet.addRow({ ...clientInfo });
