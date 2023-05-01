@@ -96,7 +96,7 @@ export async function handler(event, context) {
   };
 
   if (event?.multiValueHeaders?.Origin?.[0]?.includes('elevatech.xyz')) {
-    retPayload['Access-Control-Allow-Origin'] =
+    retPayload.headers['Access-Control-Allow-Origin'] =
       event.multiValueHeaders.Origin[0];
   }
 
