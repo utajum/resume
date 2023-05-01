@@ -50,8 +50,6 @@ export async function handler(event, context) {
     event?.headers?.['sec-ch-ua-platform'] ||
     '';
 
-  console.log(JSON.stringify({ platform }));
-
   const userAgent =
     event?.headers?.['user-agent'] ||
     (event?.multiValueHeaders?.['User-Agent'] || '').toString();
