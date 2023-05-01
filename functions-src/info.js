@@ -88,8 +88,7 @@ export async function handler(event, context) {
   return {
     statusCode: 200,
     headers: {
-      'Access-Control-Allow-Origin':
-        'https://elevatech.xyz, https://www.elevatech.xyz',
+      'Access-Control-Allow-Origin': '*',
     },
     body: JSON.stringify({ ...other, TOTAL_SITE_VISITS }),
   };
