@@ -83,11 +83,10 @@ export async function handler(event, context) {
 
   const { HOST, ...other } = clientInfo;
 
-  return {
+  const retPayload = {
     statusCode: 200,
     headers: {
       'access-control-allow-methods': 'POST,GET',
-      'Access-Control-Allow-Origin': 'https://elevatech.xyz',
       'Access-Control-Allow-Headers':
         'Origin, X-Requested-With, Content-Type, Accept',
       'Access-Control-Max-Age': '2592000',
@@ -95,4 +94,10 @@ export async function handler(event, context) {
     },
     body: JSON.stringify({ ...other, TOTAL_SITE_VISITS }),
   };
+
+  if (event?.multiValueHeaders?.Origin?.includes('elevatech.xyz')) {
+    retPayload['Access-Control-Allow-Origin'] = event.multiValueHeaders.Origin;
+  }
+
+  return retPayload;
 }
