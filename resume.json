@@ -36,6 +36,23 @@
   },
   "work": [
     {
+      "name": "ByondXR",
+      "position": "Tech Lead",
+      "startDate": "2023-06-00",
+      "endDate": "",
+      "highlights": [
+        "Backend",
+        "Frontend",
+        "React",
+        "AWS CDK",
+        "MongoDB",
+        "DevOps",
+        "NX"
+      ],
+      "summary": "At ByondXR, I assumed the role of Tech Lead for the platform team within the R&D department. In this capacity, I actively support my team in troubleshooting, offer guidance, and contribute to both backend and frontend development. My focus includes leveraging technologies such as AWS CDK, Node.js, React, NX, etc.",
+      "url": "https://www.byondxr.com/"
+    },
+    {
       "name": "Virtask",
       "position": "Full Stack Engineer",
       "startDate": "2018-01-31",
