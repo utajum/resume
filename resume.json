@@ -223,7 +223,13 @@
         "Webpack",
         "Rollup",
         "CRA",
-        "Astro"
+        "Astro",
+        "Tailwind",
+        "WebComponents",
+        "Bootstrap",
+        "Material-UI",
+        "Chakra UI",
+        "Shoelace"
       ]
     },
     {
@@ -246,6 +252,8 @@
       "level": "Senior",
       "keywords": [
         "Node.js",
+        "NextJS",
+        "SSR",
         "TypeScript",
         "Webpack",
         "Dynamodb",
