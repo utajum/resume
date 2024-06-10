@@ -233,7 +233,9 @@
         "Cucumber",
         "Cypress",
         "Mocha",
-        "Jest"
+        "Jest",
+        "Concurrency",
+        "JS Event Loop"
       ]
     },
     {
@@ -271,7 +273,9 @@
         "SSO",
         "Express",
         "Graphql",
-        "Apollo"
+        "Apollo",
+        "Concurrency",
+        "JS Event Loop"
       ]
     },
     {
