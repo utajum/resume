@@ -3,7 +3,7 @@
   "basics": {
     "name": "Vladimir Tasic",
     "label": "Software Developer",
-    "image": "https://avatars.githubusercontent.com/u/8029868?v=4",
+    "image": "https://i.imgur.com/nAQnG8U.jpeg",
     "email": "vladimir.tasik@gmail.com",
     "url": "https://vladdimir.dev",
     "summary": "I'm a Node.js developer with a love for open-source and Linux. I often can't help but dive in and contribute, whether it's fixing a bug or entering a simple bug report. Some of my proudest moments include getting my code merged into GitLab and Visual Studio Code.\n\nI'm always on the lookout for new open-source projects to tinker with. \n\nWhen I'm not coding, you can find me trail running with my dog or reverse engineering my toaster.\n\nWant some free advice? Save yourself the trouble and steer clear of home automation, it's more addictive than heroin and just as hard to kick.",
@@ -39,7 +39,7 @@
       "name": "ByondXR",
       "position": "Tech Lead",
       "startDate": "2023-06-00",
-      "endDate": "",
+      "endDate": "2024-05-01",
       "highlights": [
         "Backend",
         "Frontend",
@@ -49,25 +49,27 @@
         "DevOps",
         "NX"
       ],
-      "summary": "At ByondXR, I assumed the role of Tech Lead for the platform team within the R&D department. In this capacity, I actively support my team in troubleshooting, offer guidance, and contribute to both backend and frontend development. My focus includes leveraging technologies such as AWS CDK, Node.js, React, NX, etc.",
+      "summary": "At ByondXR, I stepped into the shoes of a Tech Lead for the platform team within the R&D department. Here, I was the go-to person for troubleshooting, guidance, and contributing to both backend and frontend development. I was working on React, the same as NextJS, along with other technologies like AWS CDK, Node.js, NX, and more.",
       "url": "https://www.byondxr.com/"
     },
     {
       "name": "Virtask",
       "position": "Full Stack Engineer",
       "startDate": "2018-01-31",
-      "endDate": "",
+      "endDate": "2024-01-01",
       "highlights": [
         "Backend",
         "Frontend",
         "React",
+        "NextJS",
         "Electron",
         "AWS Lambda",
         "Serverless",
         "Dynamodb",
         "NPM",
         "Webpack",
-        "DevOps"
+        "DevOps",
+        "Babel"
       ],
       "summary": "At Virtask, I was able to optimize the billing of various services, resulting in a significant reduction of costs to approximately 15$ per month.\n\nI created a delivery system for Windows, Android, and Web platforms that was both efficient and reliable. I automated many processes to make it easier for admins to manage the platform.\nI implemented real-time WebSocket communication using serverless technology, which greatly improved the user experience. I also built a video communication platform which was a valuable asset to the company.\n\nUsing React and Electron, I built a virtual assistant that provides users with a personalized, interactive experience. I am responsible for maintaining and updating the stack on a regular basis. I also take care of development previews, code reviews, and testing which ensures code quality and a smooth deployment process.",
       "url": "http://www.virtask.nl/"
@@ -77,8 +79,14 @@
       "position": "Software Engineer",
       "startDate": "2021-01-31",
       "endDate": "2022-06-30",
-      "highlights": ["Frontend", "Webpack", "React", "NPM", "DevOps"],
-      "summary": "At Panther, I was a part of a team of developers where I consistently met rigorous deadlines with ease.\n\nUsing React, I built a comprehensive employee management platform and a currency conversion system that provided a user-friendly and efficient way to manage employee information and financial transactions. \n\nI also made sure the pages loaded lightning-fast by implementing lazy loading and optimizing loading times.\n\nAdditionally, I built a branch preview system that allowed us to preview changes to the entire stack before they went live by automating the process using EC2 and Github.\n\nI also did a lot of code reviews to ensure that the codebase was maintainable and readable.",
+      "highlights": [
+        "Frontend",
+        "Webpack",
+        "React",
+        "NPM",
+        "DevOps"
+      ],
+      "summary": "At Panther, I was part of a team of developers where I consistently met rigorous deadlines with ease. I was working on React, the same as NextJS, to build a comprehensive employee management platform and a currency conversion system that provided a user-friendly and efficient way to manage employee information and financial transactions. I also made sure the pages loaded lightning-fast by implementing lazy loading and optimizing loading times. Additionally, I built a branch preview system that allowed us to preview changes to the entire stack before they went live by automating the process using EC2 and Github. I also did a lot of code reviews to ensure that the codebase was maintainable and readable.",
       "url": "https://www.linkedin.com/company/pantherhr/"
     },
     {
@@ -88,7 +96,7 @@
       "endDate": "2018-01-31",
       "highlights": [
         "Frontend",
-        "React",
+        "React, similar to NextJS at the time with webpack",
         "NPM",
         "Webpack",
         "DevOps",
@@ -124,7 +132,13 @@
       "position": "Continuous Improvement Engineer",
       "startDate": "2016-09-30",
       "endDate": "2017-09-30",
-      "highlights": ["DevOps", "Linux", "TeamCity", "Virtualization", "Bash"],
+      "highlights": [
+        "DevOps",
+        "Linux",
+        "TeamCity",
+        "Virtualization",
+        "Bash"
+      ],
       "summary": "As a contractor at DEFRA, I was responsible for the packaging and deployment of code on CentOS Linux systems.\n\nMy role involved creating RPM files and deploying the build artefacts to various development environments for testing.\n\nThrough this process, I ensured that the code was thoroughly tested and met the necessary standards before publishing the test results for specific version artefacts.",
       "url": "https://www.linkedin.com/company/defra/",
       "location": "Skopje"
@@ -197,7 +211,20 @@
     {
       "name": "Frontend",
       "level": "Senior",
-      "keywords": ["React.js", "JavaScript", "TypeScript", "CSS", "HTML", "npm"]
+      "keywords": [
+        "React",
+        "JavaScript",
+        "TypeScript",
+        "CSS",
+        "HTML",
+        "npm",
+        "NextJS",
+        "Vite",
+        "Webpack",
+        "Rollup",
+        "CRA",
+        "Astro"
+      ]
     },
     {
       "name": "DevOps",
@@ -239,37 +266,36 @@
         "EC2"
       ]
     },
-
     {
       "name": "Google Cloud Platform",
       "level": "",
-      "keywords": ["Various API's"]
+      "keywords": [
+        "Various API's"
+      ]
     },
-
     {
       "name": "Electron",
       "level": "",
-      "keywords": ["Update delivery", "OS level functions"]
+      "keywords": [
+        "Update delivery",
+        "OS level functions"
+      ]
     },
-
     {
       "name": "Serverless Computing",
       "level": "",
       "keywords": []
     },
-
     {
       "name": "Operating Systems",
       "level": "",
       "keywords": []
     },
-
     {
       "name": "Git",
       "level": "",
       "keywords": []
     },
-
     {
       "name": "QEMU",
       "level": "",
@@ -290,25 +316,21 @@
       "level": "",
       "keywords": []
     },
-
     {
       "name": "Web Hosting",
       "level": "",
       "keywords": []
     },
-
     {
       "name": "System Administration",
       "level": "",
       "keywords": []
     },
-
     {
       "name": "svn",
       "level": "",
       "keywords": []
     },
-
     {
       "name": "MySQL",
       "level": "",
@@ -316,6 +338,21 @@
     },
     {
       "name": "CentOS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Jest",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MobX",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Enzyme",
       "level": "",
       "keywords": []
     },
@@ -353,7 +390,11 @@
   "interests": [
     {
       "name": "Mountains and Outdoors",
-      "keywords": ["MTB", "Trail Running", "Hiking"]
+      "keywords": [
+        "MTB",
+        "Trail Running",
+        "Hiking"
+      ]
     },
     {
       "name": "Gardening"
@@ -376,7 +417,6 @@
       "language": "Russian"
     }
   ],
-
   "meta": {
     "version": "v1.0.0",
     "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
