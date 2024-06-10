@@ -229,7 +229,11 @@
         "Bootstrap",
         "Material-UI",
         "Chakra UI",
-        "Shoelace"
+        "Shoelace",
+        "Cucumber",
+        "Cypress",
+        "Mocha",
+        "Jest"
       ]
     },
     {
@@ -259,7 +263,9 @@
         "Dynamodb",
         "Serverless",
         "npm",
-        "Nest.js"
+        "Nest.js",
+        "Redis",
+        "Kafka"
       ]
     },
     {
@@ -280,6 +286,11 @@
       "keywords": [
         "Various API's"
       ]
+    },
+    {
+      "name": "Azure",
+      "level": "",
+      "keywords": []
     },
     {
       "name": "Electron",
