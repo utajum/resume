@@ -241,7 +241,12 @@
         "TeamCity",
         "Jenkins",
         "Gitlab",
-        "Github"
+        "Github",
+        "Monorepo",
+        "Pnpm",
+        "Nx",
+        "Turborepo",
+        "Yarn Workspaces"
       ]
     },
     {
