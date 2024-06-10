@@ -198,15 +198,6 @@
       "url": "https://www.linkedin.com/company/business-academy-smilevski/"
     }
   ],
-  "education": [
-    {
-      "institution": "Univerzitet 'Sv. Kiril i Metódij' vo Skopje",
-      "area": "Russian language and literature",
-      "startDate": "2005-12-31",
-      "endDate": "2010-12-31",
-      "score": ""
-    }
-  ],
   "skills": [
     {
       "name": "Frontend",
@@ -362,6 +353,31 @@
     },
     {
       "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "OracleDB",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MSSQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Postgres",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DynamoDB",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MongoDB",
       "level": "",
       "keywords": []
     },
