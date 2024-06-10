@@ -265,7 +265,13 @@
         "npm",
         "Nest.js",
         "Redis",
-        "Kafka"
+        "Kafka",
+        "Auth0",
+        "Cognito",
+        "SSO",
+        "Express",
+        "Graphql",
+        "Apollo"
       ]
     },
     {
