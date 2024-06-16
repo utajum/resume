@@ -213,6 +213,8 @@
         "Vite",
         "Webpack",
         "Rollup",
+        "React Query",
+        "TanStack Query",
         "CRA",
         "Astro",
         "Tailwind",
