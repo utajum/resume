@@ -36,6 +36,18 @@
   },
   "work": [
     {
+      "name": "Xessable",
+      "position": "Consultant",
+      "startDate": "2024-06-01",
+      "url": "https://www.xessable.com/",
+      "summary": "I'm involved in researching, designing and implementing various kinds of solutions, focusing on system architecture as well as frontend and backend development.",
+      "highlights": [
+        "TypeScript",
+        "Node.js",
+        "AWS"
+      ]
+    },
+    {
       "name": "ByondXR",
       "position": "Tech Lead",
       "startDate": "2023-06-00",
@@ -213,8 +225,6 @@
         "Vite",
         "Webpack",
         "Rollup",
-        "React Query",
-        "TanStack Query",
         "CRA",
         "Astro",
         "Tailwind",
@@ -273,7 +283,10 @@
         "Graphql",
         "Apollo",
         "Concurrency",
-        "JS Event Loop"
+        "JS Event Loop",
+        "Event Bridge",
+        "Microservices",
+        "API Gateway"
       ]
     },
     {
@@ -285,7 +298,10 @@
         "Dynamodb",
         "S3",
         "API Gateway",
-        "EC2"
+        "EC2",
+        "Event Bridge",
+        "API Gateway",
+        "CloudWatch"
       ]
     },
     {
