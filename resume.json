@@ -83,7 +83,7 @@
         "DevOps",
         "Babel"
       ],
-      "summary": "At Virtask, I was able to optimize the billing of various services, resulting in a significant reduction of costs to approximately 15$ per month.\n\nI created a delivery system for Windows, Android, and Web platforms that was both efficient and reliable. I automated many processes to make it easier for admins to manage the platform.\nI implemented real-time WebSocket communication using serverless technology, which greatly improved the user experience. I also built a video communication platform which was a valuable asset to the company.\n\nUsing React and Electron, I built a virtual assistant that provides users with a personalized, interactive experience. I am responsible for maintaining and updating the stack on a regular basis. I also take care of development previews, code reviews, and testing which ensures code quality and a smooth deployment process.",
+      "summary": "At Virtask, I was able to optimize the billing of various services, resulting in a significant reduction of costs to approximately 15$ per month.<br>\n<br>\nI created a delivery system for Windows, Android, and Web platforms that was both efficient and reliable. I automated many processes to make it easier for admins to manage the platform.\nI implemented real-time WebSocket communication using serverless technology, which greatly improved the user experience. I also built a video communication platform which was a valuable asset to the company.<br>\n<br>\nUsing React and Electron, I built a virtual assistant that provides users with a personalized, interactive experience. I am responsible for maintaining and updating the stack on a regular basis. I also take care of development previews, code reviews, and testing which ensures code quality and a smooth deployment process.",
       "url": "http://www.virtask.nl/"
     },
     {
@@ -116,7 +116,7 @@
         "Gitlab",
         "Virtualization"
       ],
-      "summary": "At TibroLabs, I worked on a animal tracking and disease control project for the country of Georgia (NAITS). I was a frontend React developer.\n\nAdditionally, I was in charge of DevOps, ensuring smooth deployment and maintenance of the system.\n\nI also created a branch preview system, which allowed for testing and reviewing code before it is merged into the main branch. I also played a key role in ensuring code quality by performing code reviews and static analysis.",
+      "summary": "At TibroLabs, I worked on a animal tracking and disease control project for the country of Georgia (NAITS). I was a frontend React developer.<br>\n<br>\nAdditionally, I was in charge of DevOps, ensuring smooth deployment and maintenance of the system.<br>\n<br>\nI also created a branch preview system, which allowed for testing and reviewing code before it is merged into the main branch. I also played a key role in ensuring code quality by performing code reviews and static analysis.",
       "url": "",
       "location": "Skopje"
     },
@@ -135,7 +135,7 @@
         "Gitlab",
         "Virtualization"
       ],
-      "summary": "At PERUN.tech, I worked on various projects as a contractor, while also managing and maintaining the company's IT infrastructure.\n\nMy responsibilities included installing and maintaining a self-served virtualization stack using QEMU on Linux, implementing a custom Ansible backup solution for all virtualized systems, maintaining and updating a self-served GitLab Community server, testing and reviewing code, managing and replicating Oracle and PostgreSQL databases, identifying cost-effective solutions such as upgrading a server blade to improve performance while reducing power consumption.\n\nAdditionally, I also worked on front-end development, utilizing my skills in web development and user interface design to enhance the user experience. I also helped other team members with technical issues and provided guidance and support as needed.",
+      "summary": "At PERUN.tech, I worked on various projects as a contractor, while also managing and maintaining the company's IT infrastructure.<br>\n<br>\nMy responsibilities included installing and maintaining a self-served virtualization stack using QEMU on Linux, implementing a custom Ansible backup solution for all virtualized systems, maintaining and updating a self-served GitLab Community server, testing and reviewing code, managing and replicating Oracle and PostgreSQL databases, identifying cost-effective solutions such as upgrading a server blade to improve performance while reducing power consumption.<br>\n<br>\nAdditionally, I also worked on front-end development, utilizing my skills in web development and user interface design to enhance the user experience. I also helped other team members with technical issues and provided guidance and support as needed.",
       "url": "https://www.linkedin.com/company/perun-technologies/",
       "location": "Skopje"
     },
@@ -151,7 +151,7 @@
         "Virtualization",
         "Bash"
       ],
-      "summary": "As a contractor at DEFRA, I was responsible for the packaging and deployment of code on CentOS Linux systems.\n\nMy role involved creating RPM files and deploying the build artefacts to various development environments for testing.\n\nThrough this process, I ensured that the code was thoroughly tested and met the necessary standards before publishing the test results for specific version artefacts.",
+      "summary": "As a contractor at DEFRA, I was responsible for the packaging and deployment of code on CentOS Linux systems.<br>\n<br>\nMy role involved creating RPM files and deploying the build artefacts to various development environments for testing.<br>\n<br>\nThrough this process, I ensured that the code was thoroughly tested and met the necessary standards before publishing the test results for specific version artefacts.",
       "url": "https://www.linkedin.com/company/defra/",
       "location": "Skopje"
     },
@@ -168,7 +168,7 @@
         "VMWare",
         "QEMU"
       ],
-      "summary": "At ABACO, I designed and developed a comprehensive white-label full-stack replication solution.\n\nThis solution automated various services, proxies, databases, and user management systems, allowing for the replication of those environments on new virtual instances with the push of a button using VMware, Ansible and Linux. \n\nThe ease of use and automation provided by this solution brought great value to the company.\n\nI also developed a Selenium codebase and reverse-engineered the Firefox Selenium IDE to record browser interaction and export it to Java-compatible Selenium tests.",
+      "summary": "At ABACO, I designed and developed a comprehensive white-label full-stack replication solution.<br>\n<br>\nThis solution automated various services, proxies, databases, and user management systems, allowing for the replication of those environments on new virtual instances with the push of a button using VMware, Ansible and Linux. <br>\n<br>\nThe ease of use and automation provided by this solution brought great value to the company.<br>\n<br>\nI also developed a Selenium codebase and reverse-engineered the Firefox Selenium IDE to record browser interaction and export it to Java-compatible Selenium tests.",
       "url": "https://www.linkedin.com/company/abacogroupspa/",
       "location": "Skopje"
     },
@@ -187,7 +187,7 @@
         "Hardware",
         "PHP"
       ],
-      "summary": "At DDCOM, I had a diverse range of responsibilities and skills, specifically in hardware repair. I was responsible for detecting and repairing defects in various electronic devices, including data recovery from different types of media.\n\nThe nature of the job was unpredictable and I never knew what new device would come in. It could be a 90s computer software to a 50,000 euros dental panorama machine. The challenges were diverse and required creative solutions, a deep understanding of various devices and technologies and the ability to troubleshoot and repair different types of systems.\n\nIn addition, I also served as a system administrator for various companies such as T. C. Soravia, notary Ana Brashnarska, ESP (esp.com.mk), and Velviem Communications. \nI provided Linux shared hosting support (CPanel), PHP development for ddstore.mk, and VBS macro creation for sheet automation, OS debugging, analysis of network security, Linux deployment and administration, and bash scripting.",
+      "summary": "At DDCOM, I had a diverse range of responsibilities and skills, specifically in hardware repair. I was responsible for detecting and repairing defects in various electronic devices, including data recovery from different types of media.<br>\n<br>\nThe nature of the job was unpredictable and I never knew what new device would come in. It could be a 90s computer software to a 50,000 euros dental panorama machine. The challenges were diverse and required creative solutions, a deep understanding of various devices and technologies and the ability to troubleshoot and repair different types of systems.<br>\n<br>\nIn addition, I also served as a system administrator for various companies such as T. C. Soravia, notary Ana Brashnarska, ESP (esp.com.mk), and Velviem Communications. \nI provided Linux shared hosting support (CPanel), PHP development for ddstore.mk, and VBS macro creation for sheet automation, OS debugging, analysis of network security, Linux deployment and administration, and bash scripting.",
       "url": "https://www.linkedin.com/company/ddcom/",
       "location": "Skopje"
     },
@@ -206,7 +206,7 @@
       "startDate": "2000-04-30",
       "endDate": "2000-05-31",
       "highlights": [],
-      "summary": "As a 14-year-old, I created a website for a large private academy called MMCollege (now known as bas.edu.mk). Not only did I build the website, but I also managed the hosting for it.\n\nI completed this project for free. It is still available to view on the internet archive (mmcollege.sk.8k.com).\n\nIt was a great opportunity for me to showcase my skills and knowledge in web development at a young age.\n\nBuilding a website for an institution like a private academy was a challenging task, but it was also a great learning experience. It was a proud moment for me to see my work online and being used by the academy.",
+      "summary": "As a 14-year-old, I created a website for a large private academy called MMCollege (now known as bas.edu.mk). Not only did I build the website, but I also managed the hosting for it.<br>\n<br>\nI completed this project for free. It is still available to view on the internet archive (mmcollege.sk.8k.com).<br>\n<br>\nIt was a great opportunity for me to showcase my skills and knowledge in web development at a young age.<br>\n<br>\nBuilding a website for an institution like a private academy was a challenging task, but it was also a great learning experience. It was a proud moment for me to see my work online and being used by the academy.",
       "url": "https://www.linkedin.com/company/business-academy-smilevski/"
     }
   ],
