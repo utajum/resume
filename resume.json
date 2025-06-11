@@ -36,15 +36,20 @@
   },
   "work": [
     {
-      "name": "Xessable",
-      "position": "Consultant",
+      "name": "Consultant",
+      "position": "",
       "startDate": "2024-06-01",
-      "url": "https://www.xessable.com/",
-      "summary": "I'm involved in researching, designing and implementing various kinds of solutions, focusing on system architecture as well as frontend and backend development.",
+      "url": "",
+      "summary": "I'm involved in researching, designing and implementing various kinds of solutions, focusing on system architecture as well as frontend and backend development.<br>\n<br>\nProjects:<br>\n<br>\n<strong>Xessable</strong>: Electron window automation, WebRTC, screen share automatic recording, resource calculation and development planing<br>\n<br>\n<strong>DDStore</strong>: automation of data entry for a webshop using LLMs, PHP, Node, TypeScript<br>\n<br>\n<strong>Volkshochschule</strong>: LLM Asistant. LLM classifier. TypeScript, AstroJS, Nodejs, Speech Recognition<br>\n<br>\n",
       "highlights": [
         "TypeScript",
         "Node.js",
-        "AWS"
+        "AWS",
+        "Electron",
+        "LLMs",
+        "Speech Recognition",
+        "Astro",
+        "PHP"
       ]
     },
     {
