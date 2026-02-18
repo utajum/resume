@@ -13,6 +13,11 @@
     },
     "profiles": [
       {
+        "network": "Website",
+        "username": "elevatech.xyz",
+        "url": "https://elevatech.xyz"
+      },
+      {
         "network": "LinkedIn",
         "username": "vladdimir",
         "url": "https://www.linkedin.com/in/vladdimir/"
@@ -96,13 +101,7 @@
       "position": "Software Engineer",
       "startDate": "2021-01-31",
       "endDate": "2022-06-30",
-      "highlights": [
-        "Frontend",
-        "Webpack",
-        "React",
-        "NPM",
-        "DevOps"
-      ],
+      "highlights": ["Frontend", "Webpack", "React", "NPM", "DevOps"],
       "summary": "At Panther, I was part of a team of developers where I consistently met rigorous deadlines with ease. I was working on React, the same as NextJS, to build a comprehensive employee management platform and a currency conversion system that provided a user-friendly and efficient way to manage employee information and financial transactions. I also made sure the pages loaded lightning-fast by implementing lazy loading and optimizing loading times. Additionally, I built a branch preview system that allowed us to preview changes to the entire stack before they went live by automating the process using EC2 and Github. I also did a lot of code reviews to ensure that the codebase was maintainable and readable.",
       "url": "https://www.linkedin.com/company/pantherhr/"
     },
@@ -149,13 +148,7 @@
       "position": "Continuous Improvement Engineer",
       "startDate": "2016-09-30",
       "endDate": "2017-09-30",
-      "highlights": [
-        "DevOps",
-        "Linux",
-        "TeamCity",
-        "Virtualization",
-        "Bash"
-      ],
+      "highlights": ["DevOps", "Linux", "TeamCity", "Virtualization", "Bash"],
       "summary": "As a contractor at DEFRA, I was responsible for the packaging and deployment of code on CentOS Linux systems.<br>\n<br>\nMy role involved creating RPM files and deploying the build artefacts to various development environments for testing.<br>\n<br>\nThrough this process, I ensured that the code was thoroughly tested and met the necessary standards before publishing the test results for specific version artefacts.",
       "url": "https://www.linkedin.com/company/defra/",
       "location": "Skopje"
@@ -312,9 +305,7 @@
     {
       "name": "Google Cloud Platform",
       "level": "",
-      "keywords": [
-        "Various API's"
-      ]
+      "keywords": ["Various API's"]
     },
     {
       "name": "Azure",
@@ -324,10 +315,7 @@
     {
       "name": "Electron",
       "level": "",
-      "keywords": [
-        "Update delivery",
-        "OS level functions"
-      ]
+      "keywords": ["Update delivery", "OS level functions"]
     },
     {
       "name": "Serverless Computing",
@@ -463,11 +451,7 @@
   "interests": [
     {
       "name": "Mountains and Outdoors",
-      "keywords": [
-        "MTB",
-        "Trail Running",
-        "Hiking"
-      ]
+      "keywords": ["MTB", "Trail Running", "Hiking"]
     },
     {
       "name": "Gardening"
