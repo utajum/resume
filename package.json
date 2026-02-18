@@ -11,7 +11,8 @@
     "build": "npm run build-functions && npm run pdf && npm run html && mkdir -p build && mv *.html ./build/index.html && mv vladimir.tasic-cv.pdf ./build && npm run inject-js-to-html",
     "build-functions": "netlify-lambda build functions-src",
     "dev-functions": "npm run build && netlify dev",
-    "inject-js-to-html": "node post-process-src/index.mjs"
+    "inject-js-to-html": "node post-process-src/index.mjs",
+    "postinstall": "patch-package"
   },
   "author": "",
   "license": "ISC",
@@ -26,5 +27,8 @@
     "netlify-lambda": "2.0.15",
     "prettier": "3.3.1",
     "resume-cli": "3.1.2"
+  },
+  "devDependencies": {
+    "patch-package": "8.0.1"
   }
 }

@@ -1,0 +1,14 @@
+diff --git a/node_modules/jsonresume-theme-kendall/index.js b/node_modules/jsonresume-theme-kendall/index.js
+index 2f87c82..cb3f14f 100755
+--- a/node_modules/jsonresume-theme-kendall/index.js
++++ b/node_modules/jsonresume-theme-kendall/index.js
+@@ -91,6 +91,9 @@ function render(resumeObject) {
+             case "keybase":
+                 p.iconClass = "fas fa-key";
+                 break;
++            case "website":
++                p.iconClass = "fas fa-rocket";
++                break;
+             default:
+                 // try to automatically select the icon based on the name
+                 p.iconClass = "fab fa-" + p.network.toLowerCase();
